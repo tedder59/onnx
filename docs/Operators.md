@@ -4719,9 +4719,13 @@ expect(node, inputs=[input, W, R, B], outputs=[Y_h.astype(np.float32)], name='te
     axis = 1,
     output = [
         [
-            [1.0, 1.9],
-            [2.3, 3.9],
-            [4.5, 5.9],
+            [1.0, 1.9]
+        ],
+        [
+            [2.3, 3.9]
+        ],
+        [
+            [4.5, 5.9]
         ],
     ]
 
